@@ -100,7 +100,8 @@ li{margin: 0px 30px}
 }
 <!--
 
-.box{
+/*renamed the below 3 classes for sake of clarity*/
+.card-img-caption-container{
     display: flex;
     justify-content: center;
     height: 200px;
@@ -108,15 +109,17 @@ li{margin: 0px 30px}
     background-color: blueviolet;
 }
 
-.card-img {
+.card-img-caption {
     margin: 10px;
-    display: flex;
-    align-items: center;
+    display: block; /*opted for block instead of flex as image and text are stacked together*/
+    text-align: center; /*consequently aligned the text centrally into the card and below the image*/
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/ /*commented out because seems unnecessary*/
 }
 
-.card-img h3{
+
+
+.card-img-caption h3{
     margin: 5px;
 
 }
