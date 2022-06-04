@@ -117,13 +117,38 @@ li{margin: 0px 30px}
     /*justify-content: center;*/ /*commented out because seems unnecessary*/
 }
 
-
-
 .card-img-caption h3{
     margin: 5px;
 
 }
 
 /**/
+
+
+.row1 {                         /*this is simply the rectanuglar container of each row of images. This centers the above rows 3 images, as well as, in the second row the sole 2 images towards the center of the freaking page*/
+    
+    display: flex;
+    justify-content: center;
+  
+}
+
+.cards2 {
+    text-align: center;
+    flex-direction: column;
+    
+    
+}
+
+.cards2 h4 {
+    max-width: 50%;
+    
+    
+}
+
+.row1 img, .row2 img {
+    width: 15em;
+}
+
+
 
 
