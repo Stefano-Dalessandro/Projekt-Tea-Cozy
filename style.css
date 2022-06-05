@@ -1,7 +1,7 @@
 * {
     background-color: black;
     color: seashell;
-    opacity: 0.9;
+    opacity: 0.93;
     font-size: 22px;
     font-family: Helvetica;
     list-style-type: none;
@@ -134,10 +134,14 @@ li{margin: 0px 30px}
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .row1 img, .row2 img, .cards2 h4 {
-    width: 15rem;
+    max-width: 15rem;
+    height: auto;/*scales the height based on the width*/
+    /*display: block;*/
+    /*prevents the image from attempting to align with neighboring objects*/
 }
 
 .cards2 {
