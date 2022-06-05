@@ -5,6 +5,9 @@
     font-size: 22px;
     font-family: Helvetica;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -115,6 +118,7 @@ li{margin: 0px 30px}
     text-align: center; /*consequently aligned the text centrally into the card and below the image*/
     flex-direction: column;
     /*justify-content: center;*/ /*commented out because seems unnecessary*/
+    
 }
 
 .card-img-caption h3{
@@ -129,24 +133,15 @@ li{margin: 0px 30px}
     
     display: flex;
     justify-content: center;
-  
+    text-align: center;
+}
+
+.row1 img, .row2 img, .cards2 h4 {
+    width: 15rem;
 }
 
 .cards2 {
-    text-align: center;
-    flex-direction: column;
-    
-    
-}
-
-.cards2 h4 {
-    max-width: 50%;
-    
-    
-}
-
-.row1 img, .row2 img {
-    width: 15em;
+    padding: 1rem;
 }
 
 
